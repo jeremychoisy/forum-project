@@ -9,25 +9,33 @@
 /* Begin PBXBuildFile section */
 		29A1BE4125CAC1B000D32E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE4025CAC1B000D32E8A /* AppDelegate.swift */; };
 		29A1BE4325CAC1B000D32E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE4225CAC1B000D32E8A /* SceneDelegate.swift */; };
-		29A1BE4525CAC1B000D32E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE4425CAC1B000D32E8A /* ViewController.swift */; };
 		29A1BE4825CAC1B000D32E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A1BE4625CAC1B000D32E8A /* Main.storyboard */; };
 		29A1BE4A25CAC1C500D32E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A1BE4925CAC1C500D32E8A /* Assets.xcassets */; };
 		29A1BE4D25CAC1C500D32E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A1BE4B25CAC1C500D32E8A /* LaunchScreen.storyboard */; };
-		29A1BE5E25CAC5B600D32E8A /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE5D25CAC5B600D32E8A /* MyCollectionViewController.swift */; };
-		29A1BE6325CAC7C900D32E8A /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE6225CAC7C900D32E8A /* MyCollectionViewCell.swift */; };
+		29A1BE5E25CAC5B600D32E8A /* PostCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE5D25CAC5B600D32E8A /* PostCollectionViewController.swift */; };
+		29A1BE6325CAC7C900D32E8A /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE6225CAC7C900D32E8A /* PostCollectionViewCell.swift */; };
+		29A1BE6825CACFE800D32E8A /* CommentCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE6725CACFE800D32E8A /* CommentCollectionViewController.swift */; };
+		29A1BE7325CAD0A100D32E8A /* CommentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE7225CAD0A100D32E8A /* CommentCollectionViewCell.swift */; };
+		29A1BE7625CAD0C300D32E8A /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE7525CAD0C300D32E8A /* AboutUsViewController.swift */; };
+		29A1BE7B25CAD27200D32E8A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE7A25CAD27200D32E8A /* Post.swift */; };
+		29A1BE7E25CAD28900D32E8A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1BE7D25CAD28900D32E8A /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29A1BE3D25CAC1B000D32E8A /* swiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A1BE4025CAC1B000D32E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29A1BE4225CAC1B000D32E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29A1BE4425CAC1B000D32E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		29A1BE4725CAC1B000D32E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29A1BE4925CAC1C500D32E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29A1BE4C25CAC1C500D32E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29A1BE4E25CAC1C500D32E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29A1BE5D25CAC5B600D32E8A /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
-		29A1BE6225CAC7C900D32E8A /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		29A1BE5D25CAC5B600D32E8A /* PostCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewController.swift; sourceTree = "<group>"; };
+		29A1BE6225CAC7C900D32E8A /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		29A1BE6725CACFE800D32E8A /* CommentCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCollectionViewController.swift; sourceTree = "<group>"; };
+		29A1BE7225CAD0A100D32E8A /* CommentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCollectionViewCell.swift; sourceTree = "<group>"; };
+		29A1BE7525CAD0C300D32E8A /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		29A1BE7A25CAD27200D32E8A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		29A1BE7D25CAD28900D32E8A /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,33 +68,21 @@
 		29A1BE3F25CAC1B000D32E8A /* swiftProject */ = {
 			isa = PBXGroup;
 			children = (
-				29A1BE6125CAC76B00D32E8A /* collectionViewController */,
-				29A1BE5B25CAC31700D32E8A /* models */,
 				29A1BE4025CAC1B000D32E8A /* AppDelegate.swift */,
-				29A1BE5D25CAC5B600D32E8A /* MyCollectionViewController.swift */,
 				29A1BE4225CAC1B000D32E8A /* SceneDelegate.swift */,
-				29A1BE4425CAC1B000D32E8A /* ViewController.swift */,
+				29A1BE7A25CAD27200D32E8A /* Post.swift */,
+				29A1BE7D25CAD28900D32E8A /* Comment.swift */,
+				29A1BE5D25CAC5B600D32E8A /* PostCollectionViewController.swift */,
+				29A1BE6225CAC7C900D32E8A /* PostCollectionViewCell.swift */,
+				29A1BE6725CACFE800D32E8A /* CommentCollectionViewController.swift */,
+				29A1BE7225CAD0A100D32E8A /* CommentCollectionViewCell.swift */,
+				29A1BE7525CAD0C300D32E8A /* AboutUsViewController.swift */,
 				29A1BE4625CAC1B000D32E8A /* Main.storyboard */,
 				29A1BE4925CAC1C500D32E8A /* Assets.xcassets */,
 				29A1BE4B25CAC1C500D32E8A /* LaunchScreen.storyboard */,
 				29A1BE4E25CAC1C500D32E8A /* Info.plist */,
-				29A1BE6225CAC7C900D32E8A /* MyCollectionViewCell.swift */,
 			);
 			path = swiftProject;
-			sourceTree = "<group>";
-		};
-		29A1BE5B25CAC31700D32E8A /* models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		29A1BE6125CAC76B00D32E8A /* collectionViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = collectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29A1BE5E25CAC5B600D32E8A /* MyCollectionViewController.swift in Sources */,
-				29A1BE6325CAC7C900D32E8A /* MyCollectionViewCell.swift in Sources */,
-				29A1BE4525CAC1B000D32E8A /* ViewController.swift in Sources */,
+				29A1BE5E25CAC5B600D32E8A /* PostCollectionViewController.swift in Sources */,
+				29A1BE6325CAC7C900D32E8A /* PostCollectionViewCell.swift in Sources */,
+				29A1BE6825CACFE800D32E8A /* CommentCollectionViewController.swift in Sources */,
+				29A1BE7B25CAD27200D32E8A /* Post.swift in Sources */,
 				29A1BE4125CAC1B000D32E8A /* AppDelegate.swift in Sources */,
+				29A1BE7625CAD0C300D32E8A /* AboutUsViewController.swift in Sources */,
+				29A1BE7325CAD0A100D32E8A /* CommentCollectionViewCell.swift in Sources */,
+				29A1BE7E25CAD28900D32E8A /* Comment.swift in Sources */,
 				29A1BE4325CAC1B000D32E8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
